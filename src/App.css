@@ -28,6 +28,47 @@
   color: #61dafb;
 }
 
+.chunk {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs{
+  margin: 8px;
+}
+.button {
+  position: absolute;
+}
+
+input{
+  height: 30px;
+}
+
+span {
+  transition: 300ms all ease;
+  opacity: 0;
+  will-change: opacity;
+  font-family: 'Quicksand';
+  color: red;
+}
+
+.show {
+  opacity: 1;
+}
+.notif{
+  position: absolute;
+  bottom: 40%;
+}
+p {
+  position:absolute;
+  top: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
